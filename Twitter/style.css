@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 95vh;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+li {
+  list-style-type: none;
+}
+.right {
+  width: 50%;
+  height: 100%;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  background: url(img/lohp_1302x955.png);
+  background-size: cover;
+  background-position: center;
+}
+/* left */
+.left .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.left .logo i {
+  font-size: 20vw;
+  z-index: 5;
+  color: #fff;
+}
+/* right */
+.right-container {
+  width: 70%;
+  /* margin: 0; */
+  padding-left: 30px;
+}
+.right .r-logo {
+  margin-top: 1rem;
+}
+.right .r-logo i {
+  font-size: 4.5vh;
+  color: #1d9bf0;
+}
+.right h1 {
+  font-size: 54px;
+  font-weight: bold;
+  padding: 28px 0 3px 0;
+  width: 20rem;
+}
+.right h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 18rem;
+}
+/* button */
+.btn-apple {
+  padding-top: 0.6rem;
+}
+.right .btn-google button {
+  text-decoration: none;
+  color: black;
+  border: 2px solid #eeeeee;
+  padding: 0.3rem 3rem;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 240px;
+}
+.btn-google button span {
+  font-size: 13px;
+  padding-left: 5px;
+}
+.btn-google button img {
+  width: 15px;
+  height: 15px;
+}
+.right .btn-apple button {
+  text-decoration: none;
+  color: black;
+  border: 2px solid #eeeeee;
+  padding: 0.3rem 3rem;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+}
+.btn-apple button span {
+  font-size: 13px;
+  padding-left: 5px;
+  font-weight: 700;
+}
+.btn-apple button i {
+  font-size: 15px;
+}
+
+.border-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  padding-top: 1rem;
+}
+.border-bottom-1 {
+  border-bottom: 2px solid #eeeeee;
+  width: 50%;
+}
+.border-bottom-2 {
+  border-bottom: 2px solid #eeeeee;
+  width: 50%;
+}
+.signup {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+.right .signup button {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #eeeeee;
+  padding: 0.5rem 0rem;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #1d9bf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+}
+.link {
+  width: 300px;
+  font-size: 10px;
+  padding-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.link a {
+  text-decoration: none;
+  color: #1d9bf0;
+  font-weight: 300;
+}
+.right .btn-login button {
+  text-decoration: none;
+  color: #1d9bf0;
+  border: 2px solid #eeeeee;
+  padding: 0.5rem 0rem;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+}
+.btn-login {
+  margin-top: 1rem;
+}
+/* footer */
+.footer-container {
+  padding-top: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.primary-ul__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.primary-ul__ul a,
+.primary-ul__ul span {
+  text-decoration: none;
+  color: grey;
+  padding-right: 10px;
+  font-size: 14px;
+}
